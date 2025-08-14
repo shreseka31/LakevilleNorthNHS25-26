@@ -1,12 +1,14 @@
 **styles.css**
 
 body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4fc; /* Light purple background */
-  color: #333; /* Neutral text color for readability */
-  text-align: center;
-}
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default margin */
+    flex-direction: column; /* Stacks content vertically */
+    background-color: #f4f4fc; /* Optional: Light purple background */
+  }
 
 nav {
   background: linear-gradient(90deg, #4b0082, #6a5acd); /* Purple to blue gradient */
