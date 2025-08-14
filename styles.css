@@ -27,16 +27,15 @@ nav a {
   margin: 0 1.5rem;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease; /* Smooth hover effect */
-  
+  padding: 0.3rem 0.8rem; /* Consistent padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  display: inline-block; /* Prevent layout shifts */
 }
 
 nav a:hover {
   color: #4b0082; /* Purple text on hover */
   background-color: #ffd700; /* Gold background on hover */
-  text-decoration: none; /* Remove underline */
-  padding: 1rem 2rem; /* Add slight padding for better appearance */
-  border-radius: 5px; /* Rounded corners for hover effect */
 }
 nav a {
   color: #ffffff; /* White text for contrast */
