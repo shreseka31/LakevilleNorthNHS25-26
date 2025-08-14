@@ -35,7 +35,7 @@ nav a:hover {
   color: #4b0082; /* Purple text on hover */
   background-color: #ffd700; /* Gold background on hover */
   text-decoration: none; /* Remove underline */
-  padding: 0.3rem 0.8rem; /* Add slight padding for better appearance */
+  padding: 1rem 2rem; /* Add slight padding for better appearance */
   border-radius: 5px; /* Rounded corners for hover effect */
 }
 
