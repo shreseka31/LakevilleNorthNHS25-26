@@ -5,6 +5,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4fc; /* Light purple background */
   color: #333; /* Neutral text color for readability */
+  text-align: center;
 }
 
 nav {
@@ -81,5 +82,8 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
   font-size: 0.9rem;
+}
+img{
+    align-self: center;
 }
 
