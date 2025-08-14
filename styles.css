@@ -18,6 +18,8 @@ nav {
   top: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   z-index: 1000;
+  display: flex;
+  justify-content: center;
 }
 
 nav a {
@@ -26,6 +28,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease; /* Smooth hover effect */
+  
 }
 
 nav a:hover {
@@ -57,6 +60,8 @@ nav a:hover {
 .container a:hover {
   background-color: #ffd700;
   color: #4b0082;
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
 }
 
 
