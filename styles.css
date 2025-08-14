@@ -44,7 +44,7 @@ nav a {
   font-weight: bold;
   padding: 0.3rem 0.8rem; /* Add consistent padding */
   border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.8s ease, color 0.8s ease; /* Smooth hover effect */
   box-sizing: border-box; /* Ensure padding doesn't affect element size */
 }
 
