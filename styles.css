@@ -38,7 +38,21 @@ nav a:hover {
   padding: 1rem 2rem; /* Add slight padding for better appearance */
   border-radius: 5px; /* Rounded corners for hover effect */
 }
+nav a {
+  color: #ffffff; /* White text for contrast */
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem 0.8rem; /* Add consistent padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  box-sizing: border-box; /* Ensure padding doesn't affect element size */
+}
 
+nav a:hover {
+  color: #4b0082; /* Purple text on hover */
+  background-color: #ffd700; /* Gold background on hover */
+}
 .container {
   display: flex;
   flex-direction: column;
