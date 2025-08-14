@@ -1,11 +1,85 @@
 **styles.css**
 
-body { margin: 0; font-family: Arial, sans-serif; }
-nav { background: #003366; padding: 1rem; position: sticky; top: 0; }
-nav a { color: white; margin: 0 1rem; text-decoration: none; }
-nav a:hover { text-decoration: underline; }
-.container { padding: 2rem; }
-h1, h2, h3 { color: #003366; }
-ul { list-style-type: none; padding: 0; }
-li { margin-bottom: 0.5rem; }
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4fc; /* Light purple background */
+  color: #333; /* Neutral text color for readability */
+}
+
+nav {
+  background: linear-gradient(90deg, #4b0082, #6a5acd); /* Purple to blue gradient */
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  z-index: 1000;
+}
+
+nav a {
+  color: #ffffff; /* White text for contrast */
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+  color: #ffd700; /* Gold hover effect */
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #4b0082; /* Deep purple for headings */
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background-color: #e6e6fa; /* Light lavender background for list items */
+  border-radius: 5px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #d8bfd8; /* Slightly darker lavender on hover */
+  transform: scale(1.02); /* Subtle zoom effect */
+}
+
+button {
+  background-color: #6a5acd; /* Blue button */
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #4b0082; /* Purple hover effect */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+footer {
+  background: #4b0082; /* Deep purple footer */
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
 
